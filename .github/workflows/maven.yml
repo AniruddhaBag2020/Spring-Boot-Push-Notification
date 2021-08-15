@@ -29,8 +29,8 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASS
     - name: Docker build
       run: |
-        docker build myorg/myapp
+        docker build myapp
     - name: Docker push
       run: |
-        docker push myorg/myapp
+        docker push myapp
 
