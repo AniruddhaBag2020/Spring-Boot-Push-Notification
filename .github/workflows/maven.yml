@@ -40,5 +40,6 @@ jobs:
       run: |
         docker push 19291291/applications_repo
     - name: run docker image
+      run: |
         docker run -t 19291291/applications_repo:latest
 
