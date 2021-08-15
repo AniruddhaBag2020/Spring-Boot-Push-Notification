@@ -35,8 +35,8 @@ jobs:
         docker login -u $DOCKER_USER -p $DOCKER_PASS
     - name: Docker build
       run: |
-        docker build myapp
+        docker build -t 19291291/applications_repo:1.0.0
     - name: Docker push
       run: |
-        docker push myapp
+        docker push 19291291/applications_repo:1.0.0
 
