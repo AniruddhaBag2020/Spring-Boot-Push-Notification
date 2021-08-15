@@ -23,9 +23,9 @@ jobs:
       run: mvn -B package --file pom.xml
     - name: list current directory
       run: ls -a
-    - name: view terget folder
+    - name: view target folder
       run: |
-        cd terget
+        cd target
         ls -a
     - name: Docker login
       env:
