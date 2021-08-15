@@ -24,7 +24,7 @@ jobs:
     - name: Docker
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-       image: docker-hub-repo/image-name
+       image: 19291291/applications_repo
        registry: docker.io
        username: ${{ secrets.DOCKER_USERNAME }}
        password: ${{ secrets.DOCKER_PASSWORD }}
